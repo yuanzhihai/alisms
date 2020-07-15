@@ -43,20 +43,19 @@ class AliSms
 
     /**
      * 发送短信
-     * @param $mobile
-     * @param $content
+     * @param $array
      * @return bool|\stdClass
      */
-    public function sendSms($mobile, $content)
+    public function sendSms($array)
     {
         $params = [];
         $accessKeyId     = $this->config['accessKeyId'];
         $accessKeySecret = $this->config['accessKeySecret'];
-        $params["PhoneNumbers"] = $mobile;
+        $params["PhoneNumbers"] = $array['mobile'];
         $params["SignName"] = $this->config['SignName'];
         $params["TemplateCode"] = $this->config['templateCode'];
         $params['TemplateParam']   = [
-            "code" => $content
+            "code" => $array['code']
         ];
         $params['OutId']           = "";
         $params['SmsUpExtendCode'] = "";
