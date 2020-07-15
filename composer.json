@@ -8,12 +8,25 @@
     "短信"
   ],
   "license" : "MIT",
+  "authors": [
+    {
+      "name": "yzh52521",
+      "email": "yzh52521@gmail.com"
+    }
+  ],
   "require" : {
     "php" : ">=5.4.0"
   },
   "autoload" : {
     "psr-4" : {
       "yzh52521\\" : "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "config": {
+        "sms": "src/config/config.php"
+      }
     }
   }
 }
