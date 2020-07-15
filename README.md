@@ -8,7 +8,7 @@ $ composer require yzh52521/alisms
 
 ```php
 //引入
-use yzh52521\sms\AliSms;
+use yzh52521\AliSms;
 $config = [
     'accessKeyId'     => '',
     'accessKeySecret' => '',
@@ -20,6 +20,6 @@ $params = [
     'code' => '1234'//短信内容
 ];
 $sms = new AliSms($config);
-$info = $sms ->sendSms($params);
+$info = $sms->sendSms($params);
 ```
 

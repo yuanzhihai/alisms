@@ -13,7 +13,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "yzh52521\\sms" : "src/"
+      "yzh52521\\" : "src/"
     }
   }
 }

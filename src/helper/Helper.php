@@ -15,7 +15,7 @@
  *     相顾无言，惟有泪千行。
  *  每晚灯火阑珊处，夜难寐，加班狂。
  */
-namespace  yzh52521\sms\helper;
+namespace  yzh52521\helper;
 class Helper
 {
     /**

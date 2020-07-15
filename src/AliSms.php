@@ -16,9 +16,9 @@
  *  每晚灯火阑珊处，夜难寐，加班狂。
  */
 
-namespace yzh52521\sms;
+namespace yzh52521;
 
-use yzh52521\sms\helper\Helper;
+use yzh52521\helper\Helper;
 
 class AliSms
 {
