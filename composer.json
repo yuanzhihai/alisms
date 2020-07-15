@@ -1,0 +1,19 @@
+{
+  "name" : "yzh52521/alisms",
+  "description" : "阿里大鱼 阿里新版短信",
+  "type" : "project",
+  "keywords" : [
+    "阿里大鱼",
+    "阿里新版短信",
+    "短信"
+  ],
+  "license" : "MIT",
+  "require" : {
+    "php" : ">=5.4.0"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "yzh52521\\sms" : "src/"
+    }
+  }
+}
