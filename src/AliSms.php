@@ -52,7 +52,7 @@ class AliSms
         $accessKeyId     = $this->config['accessKeyId'];
         $accessKeySecret = $this->config['accessKeySecret'];
         $params["PhoneNumbers"] = $array['mobile'];
-        $params["SignName"] = $this->config['SignName'];
+        $params["SignName"] = $this->config['signName'];
         $params["TemplateCode"] = $this->config['templateCode'];
         $params['TemplateParam']   = [
             "code" => $array['code']

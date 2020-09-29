@@ -3,6 +3,6 @@
 return [
     'accessKeyId'     => '',
     'accessKeySecret' => '',
-    'TemplateCode'    => '',//模版
-    'SignName'        => '', //签名
+    'templateCode'    => '',//模版
+    'signName'        => '', //签名
 ];
