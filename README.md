@@ -12,8 +12,8 @@ use yzh52521\AliSms;
 $config = [
     'accessKeyId'     => '',
     'accessKeySecret' => '',
-    'TemplateCode'    => '',
-    'SignName'        => '',
+    'templateCode'    => '',
+    'signName'        => '',
 ];
 $params = [
     'mobile' => '手机号',
